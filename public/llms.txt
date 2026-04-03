@@ -1,0 +1,79 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+חנות הציוד הצבאי המובילה לחיילים — מיגון אישי, ציוד טקטי ואביזרים לנשק במקום אחד. כל מה שצריך בשטח, במחיר שמתאים לך. הזמן עכשיו!
+
+### אודות PAZ
+https://example.com/about
+פז נוסדה מתוך הבנה אמיתית של צרכי החייל בשטח. אנחנו מביאים ציוד טקטי מקצועי ומיגון אישי איכותי ישירות אליך — כי מי שמגן על המדינה מגיע לציוד הטוב ביותר.
+
+### מוכנות שטח
+https://example.com/field-readiness
+מוכנות שטח מתחילה בציוד הנכון — תיקים טקטיים, ציוד לנשק, אביזרי שרידות ומיגון אישי שנבחרו במיוחד לחייל הישראלי. בדוק את הרשימה המלאה ותצא מוכן.
+
+### צור קשר
+https://example.com/contact
+צריך עזרה בבחירת מיגון אישי או ציוד צבאי לחיילים? צוות פז זמין לענות על כל שאלה ולעזור לך למצוא בדיוק מה שאתה צריך. פנה אלינו עכשיו ונחזור אליך במהירות.
+
+### Products
+https://example.com/products
+המוצרים שלנו - PAZ (פז)
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - PAZ (פז)
+
+### Category
+https://example.com/category/:slug
+מוצרים - PAZ (פז)
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
