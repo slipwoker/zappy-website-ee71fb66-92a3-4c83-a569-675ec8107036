@@ -12843,6 +12843,43 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* AI-generated section */
+.paz-announcement-bar {
+  background-color: #111315;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  position: relative;
+  z-index: 9999;
+  border-bottom: 1px solid rgba(0, 212, 255, 0.18);
+}
+
+.paz-announcement-bar__text {
+  color: var(--primary, #00D4FF);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+  text-shadow: 0 0 12px rgba(0, 212, 255, 0.45);
+}
+
+@media (max-width: 480px) {
+  .paz-announcement-bar__text {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
