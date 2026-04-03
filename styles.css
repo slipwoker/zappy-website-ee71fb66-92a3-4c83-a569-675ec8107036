@@ -12843,41 +12843,29 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-/* AI-generated section */
-.paz-announcement-bar {
-  background-color: #111315;
-  width: 100%;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  direction: rtl;
-  font-family: system-ui, sans-serif;
-  position: relative;
-  z-index: 9999;
-  border-bottom: 1px solid rgba(0, 212, 255, 0.18);
+.site-header .promo-announcement-bar, body > .promo-announcement-bar, .navbar ~ * .promo-announcement-bar, html body .promo-announcement-bar {
+  background: linear-gradient(90deg, #00a9b0 0%, var(--primary-color) 50%, #00a9b0 100%) !important;
+  color: var(--background-color) !important;
+  text-align: center !important;
+  padding: 10px 16px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  width: 100% !important;
+  z-index: 9999 !important;
+  position: relative !important;
+  box-shadow: 0 2px 12px rgba(0,212,255,0.25) !important;
 }
 
-.paz-announcement-bar__text {
-  color: var(--primary, #00D4FF);
-  font-size: 14px;
-  font-weight: 700;
-  margin: 0;
-  padding: 0 16px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 1;
-  text-shadow: 0 0 12px rgba(0, 212, 255, 0.45);
+html[dir="rtl"] .nav-menu {
+  color: var(--background-color) !important;
 }
 
-@media (max-width: 480px) {
-  .paz-announcement-bar__text {
-    font-size: 12px;
-    letter-spacing: 0;
-  }
+html[lang="he"] .nav-menu {
+  color: var(--background-color) !important;
+}
+
+html[lang="ar"] .nav-menu {
+  color: var(--background-color) !important;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
